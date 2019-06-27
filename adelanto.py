@@ -177,7 +177,10 @@ while opcion!=2:
                             numero = numero.zfill(2)
                     numero=int(numero)
                 segundo=1
-            numero=str(numero)    
+            numero=str(numero)   
+            if len(numero)==1:
+                numero = numero.zfill(2)
+      
 
         
    #muestra la matriz actualizada        
